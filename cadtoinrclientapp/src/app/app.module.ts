@@ -4,8 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { HomeComponentComponent } from './components/home-component/home-component.component';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './modules/layout-modules/home/home.component';
 import { BreadCrumbComponent } from './modules/layout-modules/bread-crumb/bread-crumb.component';
 import { HeaderComponent } from './modules/layout-modules/header/header.component';
 import { FooterComponent } from './modules/layout-modules/footer/footer.component';
@@ -15,7 +14,6 @@ import { ShellComponent } from './modules/layout-modules/shell/shell.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponentComponent,
     HomeComponent,
     BreadCrumbComponent,
     HeaderComponent,
