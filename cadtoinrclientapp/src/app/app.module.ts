@@ -8,7 +8,8 @@ import { HomeComponent } from './modules/layout-modules/home/home.component';
 import { BreadCrumbComponent } from './modules/layout-modules/bread-crumb/bread-crumb.component';
 import { HeaderComponent } from './modules/layout-modules/header/header.component';
 import { FooterComponent } from './modules/layout-modules/footer/footer.component';
-import { ShellComponent } from './modules/layout-modules/shell/shell.component';
+import { PageNotFoundComponent } from './modules/layout-modules/page-not-found/page-not-found.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -18,13 +19,14 @@ import { ShellComponent } from './modules/layout-modules/shell/shell.component';
     BreadCrumbComponent,
     HeaderComponent,
     FooterComponent,
-    ShellComponent,
+    PageNotFoundComponent,
 
   ],
   imports: [
     FlexLayoutModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
